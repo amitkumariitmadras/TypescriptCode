@@ -12,6 +12,7 @@ type Admin = {
     id: number
 }
 
+// another exmaple
 let user: User | Admin = { name: "amit", id: 1 }
 
 user = { username: "amit", id: 1 }
